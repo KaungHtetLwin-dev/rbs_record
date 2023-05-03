@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rbs_record_flutter_mockup/models/blood_sugar_record.dart';
+import '../../../models/blood_sugar_record.dart';
 import '../../../custom_utils.dart';
 
 class DailyListView extends StatefulWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:rbs_record_flutter_mockup/models/blood_sugar_record.dart';
+import '../models/blood_sugar_record.dart';
 
 import 'edible_screen.dart';
 import 'graph_screen/graph_screen.dart';
