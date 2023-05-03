@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="my">
+
+<head>
+  <meta charset="utf-8">
+  <title>ဆီးချို၊ သွေးတိုးရောဂါရှိသူများအတွက် တသက်ပတ်လုံး လိုက်နာကျင့်သုံးရန် အစားအစာ</title>
+  <meta name="description" content="ဆီးချို၊ သွေးတိုးရောဂါရှိသူများအတွက် တသက်ပတ်လုံး လိုက်နာကျင့်သုံးရန် အစားအစာ">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+
+  <style>
+  body { margin: 0; padding: 0; }
+
+  
+  .container{
+     margin-right: auto; 
+     margin-left: auto;
+      width: 22em;
+
+   }
+    
+
+
+  .fab {
+   width: 70px;
+   height: 70px;
+   background-color: blueviolet;
+   border-radius: 50%;
+   border:none;
+   box-shadow: 0 6px 10px 0 #666;
+   transition: all 0.1s ease-in-out;
+   position: fixed;
+   right: 50px;
+   bottom: 50px;
+  }
+ 
+  .fab:hover {
+    box-shadow: 0 6px 14px 0 #666;
+    transform: scale(1.05);
+  }
+
+    #search-input{
+     
+      display:none;
+      height: 2em;
+      width: 15em;
+      margin:auto;
+      opacity: 0.8;
+      font-weight: bold;
+      
+     
+    }
+
+    .search-box{
+      position: fixed;
+      top:8em;
+      width: 25em;
+      height: 2em;
+    }
+    
+    ol{
+      margin: 0;
+      padding: 0;
+    }
+   
+  
+  
+    .food-group{
+      background-color: #f1e4fe ;
+      
+      display: block;
+     
+      margin-bottom: 1em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+      padding:1em;
+      border-radius: 1em;
+      list-style: none;
+     
+      
+    }
+   
+    .food-group-name{
+      color:blueviolet;
+      font-weight: bold;
+      text-align: center;
+    }
+    .food-group-description{
+      font-weight: bold;
+      text-align: center;
+    }
+    ol > li > ul> li {
+      display: inline-block;
+      
+     
+    }
+    ol > li > ul> li:before {
+      
+      content: '\00a0\25CF\00a0';
+      font-size: 0.6em;
+     
+     
+    }
+    ol > li > ul> li > ul {
+      display: inline-block;
+      
+     
+    }
+    ol > li > ul> li > ul:before {
+      display: inline-block;
+      
+     
+    }
+    ol > li > ul> li > ul:after {
+      display: inline-block;
+     
+     
+    }
+    ol > li > ul> li > ul > li{
+      display: inline-block;
+      
+     
+    }
+    ol > li > ul> li > ul > li:before{
+      content: '\00a0\25aa\00a0';
+      font-size: 00.8em;
+      
+      
+     
+    }
+
+    
+
+   
+  </style>
+
+
+
+</head>
+
+<body>
+  <div class='container'>
+    <div
+    style="
+    max-width: 25em;
+    margin:32px;
+    display: block; 
+    
+    "
+    >
+      <div 
+      style="
+
+      
+      display: inline-block;
+      
+      vertical-align: middle;
+    
+      
+      "
+      >
+      <img src="rabbit.svg" style="width:4em;height:4em; object-fit: contain;" />
+
+    </div>
+      <div
+      style="
+      margin-left:2em;
+      display: inline-block;
+      vertical-align: middle;
+      width: 8em;
+      
+      "
+      >ဘဝတစ်လျှောက်လုံး လိုက်နာကျင့်သုံးရန် ဖြစ်ပါသည်</div>
+    </div>
+
+
+    <div>  
+        <ol>
+      
+          <li class='food-group'> <div class= 'food-group-name'>လုံးဝ ရှောင်ကြဥ်ရန်</div>
+
+          
+          <p class='food-group-description'>သကြားနှင့် သကြားပါဝင်သော အစားအစာများအားလုံး </p>
+          <ul>
+            <li class='food-name'>သကြား</li>
+            <li class='food-name'>ဂလူးကိုစ့် (glucose)</li>
+            <li class='food-name'>ကြံသကာ</li>
+            <li class='food-name'>ထန်းလျက်</li>
+            <li class='food-name'>ယိုအမျိုးမျိူး</li>
+            <li class='food-name'>ချိုချဥ်</li>
+            <li class='food-name'>ချောကလက်</li>
+            <li class='food-name'>အိုက်စ်ကရင်</li>
+            <li class='food-name'>လမုန့်</li>
+            <li class='food-name'>ထိုးမုန့်</li>
+            <li class='food-name'>မလိုင်မုန့်</li>
+            <li class='food-name'>ကိတ်မုန့်</li>
+            <li class='food-name'>အဖျော်ယမကာ အမျိုးမျိူး</li>
+            <li class='food-name'>စည်သွတ်ဘူး အမျိုးမျိုး</li>
+            <li class='food-name'>အလွန်ချိုသောဘီစကစ်</li>
+            <li class='food-name'>ပေါင်မုန့်</li>
+            <li class='food-name'>ကိတ်မုန့်</li>
+            <li class='food-name'>ချိုသောအသီးအနှံများ 
+              <ul>
+                ဥပမာ
+                <li>ဖရဲသီး</li>
+                <li>နာနတ်သီး</li>
+                <li>သရက်သီး</li>
+              </ul>
+            </li>
+            <li>သကြား၊ နို့ဆီ၊ နို့မှုန့်၊ ကော်ဖီမစ်တို့နှင့် ဖျော်သော ကော်ဖီ၊ လက်ဖက်ရည်။</li>
+          </ul>
+
+        </li>
+        
+        <li class='food-group'><div class='food-group-name'>အသင့်အတင့် ချင့်ချိန်စားရန်</div>
+          <p class='food-group-description'>	ဤအစားအသောက်များသည် ကစီဓာတ် (ခေါ်) ကာဘိုဟိုက်ဒြပ်ဓာတ် အများဆုံးပါရှိသည်။ မိမိနှင့် သင့်တော်သော တစ်နေ့အတွက် ကစီဓာတ်ယူနစ် ပမာဏကို ဆရာဝန်နှင့် တိုင်ပင်ရန်လိုအပ်ပါသည်။
+          </p>
+        <ul>
+          <li>ဆန်နှင့်ပြုလုပ်သော အစားအစာများ
+            <ul>
+              <li>ထမင်း</li>
+              <li>ဆန်ပြုတ်</li>
+              <li>မုန့်တီ</li>
+              <li>မုန့်ဟင်းခါး</li>
+              <li>ဆန်ခေါက်ဆွဲ</li>
+              <li>ကောက်ညှင်း</li>
+            </ul>
+          </li>
+          <li>ဂျုံနှင့် ပြုလုပ်သော အစားအစာများ
+            <ul>
+              <li>မချိုသော ပေါင်မုန့်နှင့် ဘီစကစ်</li>
+              <li>ခေါက်ဆွဲ</li>
+              <li>နံပြား</li>
+              <li>ဂျပါတီ</li>
+              <li>ပူရီ</li>
+              <li>အီကြာကွေး</li>
+              <li>ထပ်တရာ</li>
+              <li>ပလာတာ</li>
+            </ul>
+
+          </li>
+          <li>
+            ကစီဓာတ်များသော အသီးနှင့် ဥများ
+            <ul>
+              <li>အာလူး</li>
+              <li>ရွှေဖရုံသီး</li>
+              <li>ပိန်းဥ</li>
+              <li>ခါကြက်ဥ</li>
+              <li>ပဲအမျိုးမျိုး</li>
+              <li>လိမ္မော်သီး</li>
+              <li>ငှက်ပျောသီး</li>
+              <li>မာလကာသီး</li>
+              <li>စိမ်းစားဥ</li>
+            </ul>
+          </li>
+        </ul>
+        </li>
+        <li  class='food-group'><div class='food-group-name'>ရှောင်ရန်မလိုပါ</div>
+          <p class='food-group-description'>ဤအစားအသောက်များကို မိမိနှစ်သက်ပါက ဗိုက်ဝအောင် စားသောက်နိုင်ပါသည်။</p>
+          <ul>
+            <li>စိမ်းစိုသော ဟင်းရွက်အမျိုးမျိုး
+              <ul>
+                <li>ဘူးရွက်</li>
+                <li>ကန်စွန်းရွက်</li>
+                <li>မန်ကျည်းရွက်</li>
+                <li>ချဥ်ပေါင်ရွက်</li>
+                <li>ဆူးပုတ်ရွက်</li>
+                <li>မြင်းခွာရွက်</li>
+                <li>ဂေါ်ဖီထုပ်</li>
+                <li>ဂေါဖီပွင့်</li>
+                <li>ပန်းမုံလာ</li>
+                <li>ကိုက်လန်ရွက်</li>
+                <li>မုန်ညင်းရွက်</li>
+              </ul>
+            </li>
+            <li>မချိုသော အသီးအမြစ်များ
+              <ul>
+                <li>ခရမ်းချဥ်သီး</li>
+                <li>သံပုရာသီး</li>
+                <li>ရှောက်သီး</li>
+                <li>ဆီးဖြူသီး</li>
+                <li>မျှစ်</li>
+                <li>မုန်လာဥဖြူ</li>
+                <li>ဘူးသီး</li>
+                <li>ဂေါ်ရခါးသီး</li>
+                <li>ခရမ်းသီး</li>
+                <li>ကင်းပုံသီး</li>
+                <li>ခဝဲသီး</li>
+                <li>ရုံးပတီသီး</li>
+                <li>ဂွေးချိုသီး</li>
+                <li>သလဲသီး</li>
+                
+              </ul>
+            </li>
+            <li>သား/ငါးများ
+              <ul>
+                <li>ကြက်</li>
+                <li>ဘဲ</li>
+                <li>ဆိတ်</li>
+                <li>အမဲ</li>
+                <li>ဝက်</li>
+                <li>ငါး</li>
+                <li>ပုဇွန်</li>
+                <li>ကြက်ဥ</li>
+                <li>ဘဲဥ</li>
+                <li>ငုံးဥ</li>           
+
+              </ul>
+            </li>
+            <li>
+              ကော်ဖီ / လ္ဘက်ရည်
+              <ul><li>နွားနို့အစစ်နှင့် ဖျော်၍ ဆက်ကရင်နှင့် အချိုတုများနှင့် ဖျော်သော ကော်ဖီ၊ လက်ဖက်ရည်တို့ကို သောက်သုံးနိုင်ပါသည်။ </li>
+                <li>သကြား၊ နို့ဆီ၊ နို့မှုန့် လုံးဝမသုံးရ။</li></ul>
+            </li>
+          </ul>
+        </li>
+      </ol>
+    </div>
+
+    <div class='search-box'>
+      <input type='input' id='search-input' />
+    </div>
+    <button class='fab' >
+
+    <img style="filter:invert();" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB3aWR0aD0iMjRweCIgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjxwYXRoIGQ9Ik0xNS41IDE0aC0uNzlsLS4yOC0uMjdDMTUuNDEgMTIuNTkgMTYgMTEuMTEgMTYgOS41IDE2IDUuOTEgMTMuMDkgMyA5LjUgM1MzIDUuOTEgMyA5LjUgNS45MSAxNiA5LjUgMTZjMS42MSAwIDMuMDktLjU5IDQuMjMtMS41N2wuMjcuMjh2Ljc5bDUgNC45OUwyMC40OSAxOWwtNC45OS01em0tNiAwQzcuMDEgMTQgNSAxMS45OSA1IDkuNVM3LjAxIDUgOS41IDUgMTQgNy4wMSAxNCA5LjUgMTEuOTkgMTQgOS41IDE0eiIvPjwvc3ZnPg==">
+    
+    </button>
+  </div>
+
+
+    <script>
+
+document.addEventListener('DOMContentLoaded', function() {
+
+  //variable that contians the state of search input text box
+  var searchInputVisibility = false;
+  //get all li Tags
+  var liTags = document.getElementsByTagName('li');
+  var searchButton = document.getElementsByTagName('button')[0];
+  var searchInput = document.getElementById('search-input');
+        
+  //variable for food name li elements
+  var foods = [];
+
+  //filter food li elements form all li elements
+  for(let i = 0;i<liTags.length;i++){
+    let element = liTags[i];
+    if(!element.innerHTML.includes('<li>')) foods.push(element);
+  }
+
+
+        var input = document.getElementById('search-input');
+
+        var clearHighLight = function(){
+    foods.forEach((el)=>{
+          el.innerHTML = el.innerHTML.replaceAll('<mark>','');
+            el.innerHTML = el.innerHTML.replaceAll('</mark>','');
+     
+         });
+  }
+     
+      var inputHandler = function(e){
+    
+         foods.forEach((el)=>{
+          el.innerHTML = el.innerHTML.replaceAll('<mark>','');
+            el.innerHTML = el.innerHTML.replaceAll('</mark>','');
+            if(e.target.value != '')
+            el.innerHTML =el.innerHTML.replaceAll(e.target.value,'<mark>'+e.target.value+'</mark>')
+         });
+         var firstElement = document.getElementsByTagName('mark')[0];
+         if(firstElement)firstElement.scrollIntoView();
+   
+      }
+      input.addEventListener('input',inputHandler);
+
+      var searchButtonHandler = function(e){
+       
+        var searchInput = document.getElementById('search-input');
+        if(searchInputVisibility){
+          clearHighLight();
+        searchInput.style.display='none';
+        searchInput.value='';
+        searchInputVisibility = false;
+        searchButton.style.display='block';
+        }else{
+          searchButton.style.display='none';
+          searchInput.style.display='block';
+          searchInput.focus();
+          searchInputVisibility = true;
+        }
+
+
+      }
+
+      
+      searchInput.onblur = function(e){
+        clearHighLight();
+        searchButton.style.display='block';
+        searchInput.value='';
+        searchInput.style.display='none';
+        searchInputVisibility = false;
+      }
+      
+
+     
+      searchButton.onclick = searchButtonHandler;
+});
+         
+      
+
+    </script>
+
+    
+
+  <div style="height: 8em;">
+
+  </div>
+ 
+
+</body>
+
+</html>
